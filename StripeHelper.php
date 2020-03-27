@@ -98,7 +98,7 @@ class StripeHelper
         return $customer;
     }
 
-    public function chargeCustomer(iterable $customer, iterable $request, array $data = null, string $descriptor = null): object
+    public function chargeCustomer(iterable $customer, iterable $request, iterable $data = null, string $descriptor = null): object
     {
         $charge = $this->createCharge($customer, $request, $data, $descriptor);
         return $charge;
