@@ -48,7 +48,7 @@ $data = ['invoice' => '123456','name'=>$info->name];
 
 $stripe = new StripeHelper();
 $customer = $stripe->setupCharge($info);
-$stripe->chargeCustomer($customer, $request, $data)
+$stripe->chargeCustomer($customer, $request, $data);
 ```
 
 ### Alternative use
