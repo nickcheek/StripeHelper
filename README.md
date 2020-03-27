@@ -78,7 +78,7 @@ Feel free to contribute as you please.
 
 ## Authors
 
-* **Nicholas Cheek** - [PurpleBooth](https://github.com/nickcheek)
+* **Nicholas Cheek** - [NickCheek](https://github.com/nickcheek)
 
 
 ## License
